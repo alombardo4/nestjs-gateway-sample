@@ -1,6 +1,10 @@
 version: '3'
 
 services:
+  gateway:
+    image: alombardo4/projects-svc
+    ports:
+      - 3000:3000
   tasks:
     image: alombardo4/tasks-svc
     ports:
