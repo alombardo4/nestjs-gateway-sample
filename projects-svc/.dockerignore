@@ -1,0 +1,5 @@
+node_modules
+.prettierrc
+nodemon*.json
+nest-cli.json
+README.md

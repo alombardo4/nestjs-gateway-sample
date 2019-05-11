@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  tasks:
+    image: alombardo4/tasks-svc
+    ports:
+      - 3001:3000
+  projects:
+    image: alombardo4/projects-svc
+    ports:
+      - 3002:3000
